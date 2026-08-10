@@ -66,8 +66,6 @@ Swiftlet 的含义与项目特征比较匹配：
 
 ```text
 Swiftlet
-Swiftlet Runtime
-Swiftlet Judge Runtime
 ```
 
 CLI：
@@ -86,79 +84,6 @@ swiftlet-core
 swiftlet-sandbox
 ```
 
-## Alternative Names
-
-### Wren
-
-极小型鸟类。
-
-优点：
-
-- Small / lightweight 语义非常强；
-- 名字短；
-- 技术产品感不错。
-
-缺点：
-
-- Fast / concurrent 的隐喻稍弱。
-
----
-
-### Firefly
-
-小、轻，并且通常大量出现。
-
-适合表达：
-
-```text
-small workers
-+
-massive concurrency
-```
-
-但相比 Swiftlet，“高速 Runtime”的感觉较弱。
-
----
-
-### Pico
-
-非常直接表达：
-
-```text
-tiny runtime
-```
-
-例如：
-
-```text
-PicoAgent
-PicoRun
-PicoJudge
-```
-
-优点是直观，缺点是命名过于通用。
-
----
-
-### Flock
-
-突出：
-
-```text
-massive concurrent agents
-```
-
-但不能很好表达单个 Agent 极轻量。
-
----
-
-综合而言：
-
-> **Swiftlet > Wren > Firefly > Pico > Flock**
-
-推荐使用 **Swiftlet**。
-
----
 
 # 3. Problem Definition
 
